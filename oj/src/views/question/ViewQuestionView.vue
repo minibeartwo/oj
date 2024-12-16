@@ -70,7 +70,7 @@
   </div>
 </template>
 <script setup lang="ts">
-import { onMounted, ref, withDefaults, defineProps } from "vue";
+import { defineProps, onMounted, ref, withDefaults } from "vue";
 import {
   QuestionControllerService,
   QuestionSubmitAddRequest,

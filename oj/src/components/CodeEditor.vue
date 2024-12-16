@@ -8,15 +8,7 @@
 </template>
 <script setup lang="ts">
 import * as monaco from "monaco-editor";
-import {
-  defineProps,
-  onMounted,
-  ref,
-  toRaw,
-  watch,
-  watchEffect,
-  withDefaults,
-} from "vue";
+import { defineProps, onMounted, ref, toRaw, watch, withDefaults } from "vue";
 
 interface Props {
   value: string;
